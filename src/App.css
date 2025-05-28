@@ -1,3 +1,6 @@
+/* App.css - Feuille de style principale avec commentaires explicatifs */
+
+/* Style global de la page */
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -5,6 +8,7 @@ body {
   color: #2d2d2d;
 }
 
+/* Conteneur principal centré avec fond blanc et ombre légère */
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -15,6 +19,7 @@ body {
   margin-top: 4rem;
 }
 
+/* Titre principal */
 .title {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -22,6 +27,7 @@ body {
   font-weight: 600;
 }
 
+/* Styles de base pour tous les champs de formulaire */
 input {
   display: block;
   width: 100%;
@@ -33,11 +39,13 @@ input {
   transition: border-color 0.3s;
 }
 
+/* Effet de focus sur les champs */
 input:focus {
   border-color: #007bff;
   outline: none;
 }
 
+/* Style général des boutons */
 button {
   display: inline-block;
   width: 100%;
@@ -52,10 +60,12 @@ button {
   transition: background-color 0.3s;
 }
 
+/* Effet au survol des boutons */
 button:hover {
   background-color: #0056b3;
 }
 
+/* Bouton spécifique de déconnexion */
 .logout-btn {
   background-color: #dc3545;
   margin-bottom: 2rem;
@@ -65,12 +75,14 @@ button:hover {
   background-color: #a71d2a;
 }
 
+/* Espacement entre les différents blocs de formulaire et de liste */
 .auth-form,
 .password-form,
 .password-list {
   margin-bottom: 2rem;
 }
 
+/* Carte individuelle contenant les informations d’un mot de passe */
 .password-item {
   display: flex;
   justify-content: space-between;
@@ -83,10 +95,12 @@ button:hover {
   transition: box-shadow 0.2s;
 }
 
+/* Effet au survol des cartes */
 .password-item:hover {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Bouton de suppression à l’intérieur de chaque carte */
 .password-item button {
   width: auto;
   background-color: #dc3545;
